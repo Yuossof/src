@@ -1,0 +1,100 @@
+.forgot-password{
+    width: 430px;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-radius: 10px;
+}
+
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 11px;
+}
+
+.close svg{
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(48, 49, 47);
+    transition: 0.2s;
+}
+.close svg:hover{
+    transform: scale(1.2);
+}
+
+.close svg:active{
+    transform: scale(0.9);
+}
+
+.Mother-forgot-pass{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-600px);
+    transition: 0.5s;
+}
+
+
+.forgot-pass-p{
+    cursor: pointer;
+}
+
+.Dark .forgot-pass-p{
+    color: white;
+}
+
+.forgot-pass-p:hover{
+    color: brown;
+
+}
+
+.Hide-Form-login{
+    transition: 0.7s;
+    transform: translateX(1000px);
+}
+
+.forgot-password input{
+    border: 1px solid rgb(135, 127, 127);
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.Dark .forgot-password input{
+    border: 1px solid rgb(135, 127, 127);
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.forgot-password button{
+    width: 110px;
+    height: 40px;
+    background-color: teal;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.forgot-password button:hover{
+    background-color: rgb(30, 175, 175);
+}
+
+.Mother-show-forgot-password{
+    transform: translateY(0);
+}
+
+
+

@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*===Signin===*/
+
+
+.Light .formLogin {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: 0.7s;
+}
+
+.Light .formLogin input {
+    width: 310px;
+    height: 45px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid rgba(134, 127, 127, 0.956);
+    padding-left: 10px;
+    font-weight: 50;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: rgb(79, 73, 73);
+
+}
+
+.Light .formLogin button {
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Light .contForm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.Light .backGroundForm {
+    background-color: rgba(254, 251, 251, 0.652);
+    width: 430px;
+    border: 1px solid rgba(190, 177, 177, 0.786);
+    border-radius: 10px;
+}
+
+
+
+.Dark .contForm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.Dark .formLogin {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Dark .formLogin input {
+    width: 310px;
+    height: 45px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid rgba(134, 127, 127, 0.956);
+    padding-left: 10px;
+    font-weight: 50;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: rgb(222, 209, 209);
+
+}
+
+.Dark .formLogin button {
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Light .formLogin button:hover {
+    background-color: rgba(0, 128, 128, 0.884);
+}
+
+.Dark .contForm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.Dark .backGroundForm {
+    width: 430px;
+    border: 1px solid rgb(159, 150, 150);
+    border-radius: 10px;
+
+}
+
+
+
+.Dark .pLink {
+    color: white;
+}
+
+.Dark .pLink a {
+    color: rgba(54, 54, 239, 0.605);
+}
+
+
+.Dark #h {
+    color: white;
+}
+
+
+
+
+/*===Signup===*/
+
+.Light .formLogin2 {
+    display: flex;
+    height: 78vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Light .formLogin2 input {
+    width: 310px;
+    height: 55px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid rgba(134, 127, 127, 0.956);
+    padding-left: 10px;
+    font-weight: 50;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: rgb(79, 73, 73);
+
+}
+
+.Light .formLogin2 button {
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Dark .formLogin2 {
+    display: flex;
+    height: 78vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Dark .formLogin2 input {
+    width: 310px;
+    height: 45px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid rgba(134, 127, 127, 0.956);
+    padding-left: 10px;
+    font-weight: 50;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: rgb(222, 209, 209);
+
+}
+
+.Dark .formLogin2 button {
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.GetstartedDiv {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Light .GetstartedDiv a {
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.Dark .SignOut {
+    color: white;
+}
+
+.SignOut {
+    all: unset;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SignOut:hover {
+
+    background-color: rgb(200, 73, 73);
+    color: white;
+
+}
+
+.Dark .ProfileBackG {
+    color: white;
+    border: 2px solid rgb(230, 213, 213);
+    padding: 20px;
+
+
+}
+
+.Dark .ProfileBackG h3, .DeleteACC
+ {
+    margin: 30px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.Light .motherPr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dark .motherPr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Light .DeleteACC {
+    background-color: rgb(79, 65, 65);
+    outline: none;
+    border: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Dark .DeleteACC {
+    background-color: rgba(81, 70, 70, 0.77);
+    outline: none;
+    border: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Light .ProfileBackG {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Light .ProfileBackG button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Dark .ProfileBackG {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Dark .ProfileBackG button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.Dark .DeleteACC:hover {
+    background-color: rgba(165, 42, 42, 0.79);
+
+}
+
+.Light .DeleteACC:hover {
+    background-color: rgba(165, 42, 42, 0.79);
+
+}
+
+.mothLoad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Box-all-Data-Home {
+    margin-top: 180px;
+}
+
+
+.Box-Verify button {
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+
+.Box-Verify button:hover {
+    background-color: rgba(182, 75, 75, 0.936);
+}
+
+.Box-Verify button:active {
+    transform: scale(0.9);
+}
+
+
+.Box-Verify p {
+    color: rgb(67, 104, 104);
+}
+
+.Dark h1{
+    color: white;
+}
+
+
+

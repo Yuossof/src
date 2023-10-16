@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(2, 2, 31);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -400px;
+    padding: 10px;
+}
+
+.footer{
+    display: none;
+}
+
+
+@media (min-width: 900px) {
+    .footer{
+        display: block;
+    }
+}

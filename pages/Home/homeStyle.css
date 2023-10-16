@@ -1,0 +1,253 @@
+/*===============================
+   1-Options And Create New List 
+================================*/
+/* .home .parent-of-btns {
+      border: 2px solid red;
+} */
+.home .parent-of-btns button {
+      border: 1px solid black;
+      font-size: 17px;
+      padding: 10px 13px;
+      background-color: rgb(2, 156, 156);
+      color: white;
+      margin-right: 14px;
+      border: none;
+}
+
+.home select {
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.218) 0px 0px 0px 1px;
+      border: none;
+      font-size: 17px;
+      padding: 10px 13px;
+      cursor: pointer;
+      outline: none;
+}
+
+.home select option {
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.218) 0px 0px 0px 1px;
+      border: none;
+      font-size: 17px;
+      padding: 10px;
+      cursor: pointer;
+      outline: none;
+}
+
+/*===============================
+       2-Show All Tasks
+================================*/
+/* .home .all-tasks {
+      border: 2px solid red;
+
+} */
+
+.home .all-tasks .first-task {
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.218) 0px 0px 0px 1px;
+      margin: 40px 20px;
+      height: 150px;
+      width: 320px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+}
+
+.Dark .home .all-tasks .first-task {
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(228, 230, 233, 0.719) 0px 0px 0px 1px;
+      margin: 40px 20px;
+      height: 150px;
+      width: 320px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+}
+
+.home .all-tasks .first-task a {
+      text-decoration: none;
+      color: black;
+}
+
+.Dark .home .all-tasks .first-task a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+}
+
+
+.home .all-tasks .first-task .time {
+      font-size: 12px;
+      text-align: right;
+      margin-right: 16px;
+}
+
+.home .all-tasks .first-task h2 {
+      margin-top: 20px;
+      font-size: 19px;
+}
+
+
+
+.home .all-tasks .first-task li {
+      font-size: 14px;
+      line-height: 27px;
+      list-style-type: none;
+      text-align: left;
+
+}
+
+
+
+
+/*===============================
+      3-Btn Add New Task 
+================================*/
+
+.add-task-btn {
+      background-color: rgb(3, 161, 161);
+      font-size: 17px;
+      padding: 13px 12px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      transition: 0.1s;
+}
+
+.add-task-btn:hover {
+      background-color: rgb(15, 152, 152);
+}
+
+
+.mother-of-modal-tag {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+}
+
+.mother-of-modal-tag input {
+      width: 280px;
+      height: 50px;
+      font-size: 17px;
+      outline: none;
+     padding-left: 10px;
+
+}
+
+.mother-of-modal-tag button {
+      width: 130px;
+      height: 45px;
+      font-size: 17px;
+      outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+   transition: 0.1s;
+
+}
+
+
+.mother-of-modal-tag button:first-child {
+      background-color: teal;
+      outline: none;
+      border: none;
+      color: white;
+
+
+}
+
+.mother-of-modal-tag button:first-child:hover{
+      background-color: rgb(2, 147, 147);
+}
+
+.mother-of-modal-tag button:first-child:active{
+      transform: scale(0.94);
+}
+
+
+
+.mother-of-modal-tag button:last-child {
+      background-color: rgb(86, 218, 15);
+      outline: none;
+      border: none;
+      color: white;
+
+
+}
+
+.mother-of-modal-tag button:last-child:hover{
+      background-color: rgba(122, 235, 61, 0.884);
+}
+
+
+.mother-of-modal-tag button:last-child:active{
+     transform: scale(0.94);
+}
+
+
+
+
+.mother-of-modal-tag div:first-child {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+}
+
+.mother-of-modal-tag div:last-child {
+      display: flex;
+      gap: 20px;
+
+}
+
+
+.task-show-mass{
+      background-color: rgb(244, 238, 238);
+      font-size: 18px;
+      color: rgb(34, 33, 33);
+      padding: 8px 12px;
+      font-weight: normal;
+      position: fixed;
+      top: 100px;
+     transition: 1s;
+      border-radius: 10px;
+      
+}
+.Dark .task-show-mass{
+      background-color: rgb(253, 251, 251);
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+      padding: 8px 12px;
+      font-weight: normal;
+}
+
+
+.check{
+      color: rgb(4, 159, 159);
+      margin-left: 5px;
+}
+
+  .mother-of-ulli-tasks ul{
+  margin-left: 15px;
+  /* display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 36px; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  
+  }
+  .mother-of-ulli-tasks ul li{
+      list-style-type: circle;
+text-align: left;
+    
+  }
+  
+  
+  .container-of-modal-tag{
+
+    height: 57%;
+
+  }
+  
+
+

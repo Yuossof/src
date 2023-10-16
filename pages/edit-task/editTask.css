@@ -1,0 +1,185 @@
+/* ============================
+        Table Of Contents
+=============================== 
+
+1- title of tasks
+2- sub-tasks section
+3- Add-more BTN && Delete BTN
+
+*/
+
+
+.edit-task {
+    min-height: calc(100vh - 133px);
+}
+
+.title {
+
+    text-align: center;
+    
+}
+
+.www{
+    display: none;
+}
+
+/* ============================
+        Title of task
+=============================== */
+.title-input {
+    background-color: transparent;
+    border: none;
+    color: rgb(19, 19, 19);
+    font-size: 22px;
+    padding: 10px;
+
+    text-align: center;
+    font-weight: bold;
+    margin-top: 18px;
+    outline: none;
+}
+
+.title-input:focus{
+    border-bottom: 1px solid rgba(56, 55, 55, 0.752);
+
+}
+
+
+
+
+
+/* ============================
+       sub-tasks section
+=============================== */
+.sub-task {
+
+    
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(194, 199, 203, 0.736) 0px 0px 0px 1px;  
+    max-width: 620px;
+
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.tasks-box-mother{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+
+   
+}
+.Dark .tasks-box-mother{
+    color: white;
+}
+
+#check{
+ width: 17px;
+ height: 17px;
+}
+ .head-of-checkbox-p label{
+    font-size: 17px;
+    
+}
+
+.head-of-checkbox-p{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    list-style: none;
+    
+
+}
+.ul{
+   padding-inline-start: 0;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.284) 0px 0px 0px 1px;
+  
+   background-color: whitesmoke;
+   cursor: pointer;
+   transition: 0.15;
+   padding: 17px ;
+   margin-top: 9px;
+   
+}
+.ul:hover{
+    background-color: rgba(246, 237, 237, 0.907)
+}
+
+.taks-ulli{
+    margin: 0;
+}
+
+
+.li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+ 
+}
+.li svg:hover{
+    color: rgba(165, 42, 42, 0.712);
+    transform: scale(1.2);
+}
+
+/* ===============================
+     Add-more BTN && Delete BTN
+================================== */
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+.test button:first-child{
+ border: none;
+ /* padding: 15px 30px; */
+ background-color: teal;
+ color: white;
+ border: none;
+ width: 150px;
+ height: 45px;
+ font-size: 16px;
+ cursor: pointer;
+}
+.test button:first-child:hover{
+ 
+ /* padding: 15px 30px; */
+ background-color: rgba(9, 131, 131, 0.926);
+ 
+}
+
+.test button:last-child{
+
+    background-color: rgb(165, 36, 36);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 45px ;
+    font-size: 16px;
+    cursor: pointer;
+}
+.test button:last-child:hover{
+
+    background-color: rgba(165, 54, 54, 0.959);
+
+}
+
+
+
+
+
+
+/* home */
