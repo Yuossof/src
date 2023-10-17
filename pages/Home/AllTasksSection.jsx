@@ -33,7 +33,7 @@ const AllTasksSection = ({ user }) => {
                 {value.docs.map((item) => {
                     return (
                         <div className="first-task">
-                            <Link to={"/edit-task"}>
+                            <Link to={`edit-task/${item.data().id}`}>
                                 <h2>{item.data().title}</h2>
                                 <ul>
                                     {item.data().Details.map((item, index)=>{
