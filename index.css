@@ -61,6 +61,7 @@ code {
   justify-content: space-between;
   align-items: center;
   direction: rtl;
+  margin-top: 18px;
 }
 
 .mother .contLink {

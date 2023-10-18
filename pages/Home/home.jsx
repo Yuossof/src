@@ -38,7 +38,7 @@ import { db } from "../../firebase/config";
 
 const Home = () => {
 
-
+   
 
 
    const [TasksArr, setTasksArr] = useState([])
@@ -188,7 +188,6 @@ const Home = () => {
                                           Details: TasksArr,
                                           id: taskIDandData,
                                           completed: false
-
                                        });
 
                                        closeForm()

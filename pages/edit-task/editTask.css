@@ -38,9 +38,25 @@
     margin-top: 18px;
     outline: none;
 }
+.Dark .title-input {
+    background-color: transparent;
+    border: none;
+    color: rgb(238, 234, 234);
+    font-size: 22px;
+    padding: 10px;
+
+    text-align: center;
+    font-weight: bold;
+    margin-top: 18px;
+    outline: none;
+}
 
 .title-input:focus{
     border-bottom: 1px solid rgba(56, 55, 55, 0.752);
+
+}
+.Dark .title-input:focus{
+    border-bottom: 1px solid rgba(174, 169, 169, 0.752);
 
 }
 
@@ -57,7 +73,9 @@
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(194, 199, 203, 0.736) 0px 0px 0px 1px;  
     max-width: 620px;
 
-    height: 200px;
+    min-height: 100px;
+    max-height: 500px;
+    overflow-x: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -133,7 +151,7 @@
      Add-more BTN && Delete BTN
 ================================== */
 
-.test{
+.BtnsEditTask{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +161,7 @@
 
 }
 
-.test button:first-child{
+.BtnsEditTask button:first-child{
  border: none;
  /* padding: 15px 30px; */
  background-color: teal;
@@ -154,14 +172,14 @@
  font-size: 16px;
  cursor: pointer;
 }
-.test button:first-child:hover{
+.BtnsEditTask button:first-child:hover{
  
  /* padding: 15px 30px; */
  background-color: rgba(9, 131, 131, 0.926);
  
 }
 
-.test button:last-child{
+.BtnsEditTask button:last-child{
 
     background-color: rgb(165, 36, 36);
     color: white;
@@ -171,13 +189,11 @@
     font-size: 16px;
     cursor: pointer;
 }
-.test button:last-child:hover{
+.BtnsEditTask button:last-child:hover{
 
     background-color: rgba(165, 54, 54, 0.959);
 
 }
-
-
 
 
 

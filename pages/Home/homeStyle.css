@@ -47,6 +47,8 @@
       width: 320px;
       padding-bottom: 10px;
       padding-left: 15px;
+      background-color: red;
+      position: relative;
 }
 
 .Dark .home .all-tasks .first-task {
@@ -73,6 +75,9 @@
       font-size: 12px;
       text-align: right;
       margin-right: 16px;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
 }
 
 .home .all-tasks .first-task h2 {
@@ -119,6 +124,7 @@
       align-items: center;
       justify-content: center;
       height: 100%;
+      
 }
 
 .mother-of-modal-tag input {
@@ -249,5 +255,4 @@ text-align: left;
 
   }
   
-
 

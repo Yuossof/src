@@ -11,6 +11,7 @@ import Loading from '../../components/loading/Loading';
 const AllTasksSection = ({ user }) => {
     const [value, loading, error] = useCollection(collection(db, user.uid));
 
+
     if (error) {
         return (
             <h1>Error</h1>
@@ -26,20 +27,21 @@ const AllTasksSection = ({ user }) => {
     }
 
     if (value) {
+
         return (
 
             <section className="flex all-tasks">
 
                 {value.docs.map((item) => {
                     return (
-                        <div className="first-task">
+                        <div key={item.data().id} className="first-task">
                             <Link to={`edit-task/${item.data().id}`}>
                                 <h2>{item.data().title}</h2>
                                 <ul>
                                     {item.data().Details.map((item, index)=>{
                                       if(index < 2){
                                         return(
-                                            <li>{item}</li>
+                                            <li key={item}>{item}</li>
                                         )
                                       }else{
                                         return false

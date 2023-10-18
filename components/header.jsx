@@ -32,9 +32,12 @@ import Loading from './loading/Loading';
 
 
 
-
-
 const Header = () => {
+  
+
+
+
+
   const [user, loading, error] = useAuthState(auth)
 
 
@@ -96,7 +99,7 @@ if(loading){
 
 
           {user &&
-            <NavLink className="main-link" to="/about">
+            <NavLink className={`main-link`} to="/about">
               About
             </NavLink>
           }

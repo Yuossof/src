@@ -42,7 +42,7 @@
     top: 69px;
     transform: rotate(45deg);
     border-radius: 6px;
-    animation: pulse 1.3s ease infinite;
+    animation: pulse2 1.3s ease infinite;
   }
   
   .cssload-loading {
@@ -179,7 +179,7 @@
     }
   }
   
-  @keyframes pulse {
+  @keyframes pulse2 {
     0%, 100% {
       transform: scale(inherit) rotate(45deg);
     }
