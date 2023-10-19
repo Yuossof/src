@@ -47,7 +47,6 @@
       width: 320px;
       padding-bottom: 10px;
       padding-left: 15px;
-      background-color: red;
       position: relative;
 }
 
@@ -78,6 +77,7 @@
       position: absolute;
       bottom: 10px;
       right: 10px;
+      
 }
 
 .home .all-tasks .first-task h2 {

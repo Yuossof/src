@@ -9,6 +9,16 @@
 */
 
 
+/*
+=========BTN DELETE ANIM CODE=======
+*/
+
+
+
+
+
+
+
 .edit-task {
     min-height: calc(100vh - 133px);
 }
@@ -72,9 +82,8 @@
     
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(194, 199, 203, 0.736) 0px 0px 0px 1px;  
     max-width: 620px;
-
     min-height: 100px;
-    max-height: 500px;
+    max-height: 340px;
     overflow-x: auto;
     margin-left: auto;
     margin-right: auto;
@@ -194,6 +203,70 @@
     background-color: rgba(165, 54, 54, 0.959);
 
 }
+
+
+
+
+.Add-More-Task{
+    display: flex;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.284) 0px 0px 0px 1px;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-top: 5px;
+    animation: SubTask 1s ;
+}
+
+@keyframes SubTask{
+   0%{scale: 0;}
+   40%{scale: 1.02;}
+   100%{scale: 1;}
+}
+
+.Add-More-Task input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(123, 119, 119);
+    padding-left: 10px;
+    background-color: transparent;
+    color: rgb(35, 35, 34);
+    font-size: 15px;
+}
+
+.Add-More-Task .add{
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  background-color: teal;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Add-More-Task .add:hover{
+  background-color: rgb(10, 156, 156);
+}
+
+
+.Add-More-Task .cancel{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: teal;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.Add-More-Task .cancel:hover{
+    background-color: rgba(190, 22, 22, 0.766);
+}
+
 
 
 
